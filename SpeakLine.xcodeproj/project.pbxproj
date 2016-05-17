@@ -9,15 +9,17 @@
 /* Begin PBXBuildFile section */
 		1545F8631CEB6D9500953685 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545F8621CEB6D9500953685 /* AppDelegate.swift */; };
 		1545F8651CEB6D9500953685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1545F8641CEB6D9500953685 /* Assets.xcassets */; };
-		1545F8681CEB6D9500953685 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1545F8661CEB6D9500953685 /* MainMenu.xib */; };
+		1545F8711CEB6E0300953685 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1545F86F1CEB6E0300953685 /* MainWindowController.swift */; };
+		1545F8721CEB6E0300953685 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1545F8701CEB6E0300953685 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1545F85F1CEB6D9500953685 /* SpeakLine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakLine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1545F8621CEB6D9500953685 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1545F8641CEB6D9500953685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1545F8671CEB6D9500953685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1545F8691CEB6D9500953685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1545F86F1CEB6E0300953685 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		1545F8701CEB6E0300953685 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 			children = (
 				1545F8621CEB6D9500953685 /* AppDelegate.swift */,
 				1545F8641CEB6D9500953685 /* Assets.xcassets */,
-				1545F8661CEB6D9500953685 /* MainMenu.xib */,
 				1545F8691CEB6D9500953685 /* Info.plist */,
+				1545F86F1CEB6E0300953685 /* MainWindowController.swift */,
+				1545F8701CEB6E0300953685 /* MainWindowController.xib */,
 			);
 			path = SpeakLine;
 			sourceTree = "<group>";
@@ -116,8 +119,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1545F8721CEB6E0300953685 /* MainWindowController.xib in Resources */,
 				1545F8651CEB6D9500953685 /* Assets.xcassets in Resources */,
-				1545F8681CEB6D9500953685 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,22 +131,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1545F8711CEB6E0300953685 /* MainWindowController.swift in Sources */,
 				1545F8631CEB6D9500953685 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		1545F8661CEB6D9500953685 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1545F8671CEB6D9500953685 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1545F86A1CEB6D9500953685 /* Debug */ = {
